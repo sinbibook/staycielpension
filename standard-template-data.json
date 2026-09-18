@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.9.0",
-    "generatedAt": "2026-09-18T07:18:41.397656775Z",
+    "version": "1.10.0",
+    "generatedAt": "2026-09-18T09:06:02.692586857Z",
     "templateType": "trip_l",
     "propertyId": "351e8e70-063f-4040-a80f-f1bb11ade104",
     "homepageId": "01a0b277-e201-7da5-be4f-30bbadc4c204"
@@ -2628,7 +2628,7 @@
               }
             ],
             "slider": false,
-            "enabled": false,
+            "enabled": true,
             "endDate": null,
             "sortOrder": 0,
             "startDate": null,
