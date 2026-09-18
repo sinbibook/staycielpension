@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.7.0",
-    "generatedAt": "2026-09-18T07:08:10.987748425Z",
+    "version": "1.8.0",
+    "generatedAt": "2026-09-18T07:17:28.252323082Z",
     "templateType": "trip_l",
     "propertyId": "351e8e70-063f-4040-a80f-f1bb11ade104",
     "homepageId": "01a0b277-e201-7da5-be4f-30bbadc4c204"
@@ -2214,7 +2214,16 @@
             {
               "hero": {
                 "title": "오시는길",
-                "images": [ ]
+                "images": [
+                  {
+                    "id": "01a0b360-9598-7ce2-8608-12cdb8970309",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/directions_hero/1789715846192-s4iv4p1zhl.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  }
+                ]
               },
               "notice": {
                 "title": "",
@@ -2533,7 +2542,16 @@
             {
               "hero": {
                 "title": "예약안내",
-                "images": [ ],
+                "images": [
+                  {
+                    "id": "01a0b360-95eb-7aa6-bf73-5f983e9b5a19",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/reservation_hero/1789715846193-4bdlcisvb0.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  }
+                ],
                 "description": ""
               },
               "about": {
