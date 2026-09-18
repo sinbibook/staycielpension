@@ -55,6 +55,11 @@
       var items = [];
       list.forEach(function (rt) {
         var groupName = self.getRoomGroupName(rt);
+        // 그룹 숙소에서는 미그룹 객실을 메뉴에 내지 않는다.
+        // 원본 헤더가 그룹만 노출하고, 미그룹 객실은 목록 / Room Preview 로만 도달한다.
+        // (Room Preview 는 roomtypes[] 전체를 그리므로 영향 없다)
+        if (!groupName) return;
+
         var label = groupName || (resolveName ? resolveName(rt) : (rt && rt.name) || '');
         if (!String(label).trim()) return;
         var key = groupName ? 'group:' + groupName : 'room:' + rt.id;
