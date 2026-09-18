@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.3.0",
-    "generatedAt": "2026-09-18T05:41:41.994885110Z",
+    "version": "1.4.0",
+    "generatedAt": "2026-09-18T05:45:41.543013480Z",
     "templateType": "trip_l",
     "propertyId": "351e8e70-063f-4040-a80f-f1bb11ade104",
     "homepageId": "01a0b277-e201-7da5-be4f-30bbadc4c204"
@@ -2233,7 +2233,7 @@
                     "id": "01a0b308-59ec-7a82-81f4-fa7485ffa97c",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_hero/1789710063716-wr8nxnir9w.jpg",
                     "sortOrder": 0,
-                    "description": "",
+                    "description": "프라이빗",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -2241,7 +2241,7 @@
                     "id": "01a0b308-5a35-7177-b8d7-fcede1bd06b2",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_hero/1789710063714-v50f9lzsbb.jpg",
                     "sortOrder": 1,
-                    "description": "",
+                    "description": "오션뷰",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -2249,7 +2249,7 @@
                     "id": "01a0b308-5a26-7f8c-bfe2-9690bf0b9564",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_hero/1789710063719-39lt4w5fwn.jpg",
                     "sortOrder": 2,
-                    "description": "",
+                    "description": "힐링",
                     "isSelected": true,
                     "blockId": null
                   },
