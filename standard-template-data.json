@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.6.0",
-    "generatedAt": "2026-09-18T05:50:52.008651291Z",
+    "version": "1.7.0",
+    "generatedAt": "2026-09-18T07:08:10.987748425Z",
     "templateType": "trip_l",
     "propertyId": "351e8e70-063f-4040-a80f-f1bb11ade104",
     "homepageId": "01a0b277-e201-7da5-be4f-30bbadc4c204"
@@ -2307,7 +2307,64 @@
               "about": [
                 {
                   "title": "",
-                  "images": [ ],
+                  "images": [
+                    {
+                      "id": "01a0b358-124f-7986-884a-b14cdebf2760",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_about/1789715288156-8964m70jgj.jpg",
+                      "sortOrder": 0,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "968b4c06-ab5d-439f-95de-a103b4901c03"
+                    },
+                    {
+                      "id": "01a0b358-11a5-76eb-9a44-2fece444ba25",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_about/1789715288153-nloc2xv3wp.jpg",
+                      "sortOrder": 1,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "968b4c06-ab5d-439f-95de-a103b4901c03"
+                    },
+                    {
+                      "id": "01a0b358-11c6-73fe-87f2-c0cbd0c20745",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_about/1789715288153-rf48awki30.jpg",
+                      "sortOrder": 2,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "968b4c06-ab5d-439f-95de-a103b4901c03"
+                    },
+                    {
+                      "id": "01a0b358-11fe-75a6-93d0-d6ebb4bc94d7",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_about/1789715288156-kjotwr8gom.jpg",
+                      "sortOrder": 3,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "968b4c06-ab5d-439f-95de-a103b4901c03"
+                    },
+                    {
+                      "id": "01a0b358-11e2-71e6-8da5-3cb4434f7abc",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_about/1789715288158-cdfy2zmiag.jpg",
+                      "sortOrder": 4,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "968b4c06-ab5d-439f-95de-a103b4901c03"
+                    },
+                    {
+                      "id": "01a0b358-120d-75fc-9232-c0b5a9994dd6",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_about/1789715288158-zc5uz96pjj.jpg",
+                      "sortOrder": 5,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "968b4c06-ab5d-439f-95de-a103b4901c03"
+                    },
+                    {
+                      "id": "01a0b358-124e-798f-890a-0cdc7f84b157",
+                      "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/01a0b277-e201-7da5-be4f-30bbadc4c204/main_about/1789715288160-bdogdwbclf.jpg",
+                      "sortOrder": 6,
+                      "description": "",
+                      "isSelected": true,
+                      "blockId": "968b4c06-ab5d-439f-95de-a103b4901c03"
+                    }
+                  ],
                   "blockId": "968b4c06-ab5d-439f-95de-a103b4901c03",
                   "description": ""
                 }
