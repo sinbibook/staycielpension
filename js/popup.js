@@ -110,6 +110,8 @@ class PopupManager {
                 this.boxes.push({
                     boxId: boxId,
                     popupId: p.id,
+                    // 백오피스에서 고른 팝업 폭(px). 없으면 기본 폭
+                    width: Number(p.width) > 0 ? Number(p.width) : PopupManager.DEFAULT_BOX_WIDTH,
                     url: url,
                     link: (p.link && p.link.trim()) ? p.link.trim() : '',
                     title: p.title || '',
@@ -293,11 +295,14 @@ class PopupManager {
         const CHROME_W = 22;  // 좌우 padding(10*2) + border(1*2)
         const CHROME_H = 80;  // 상하 padding + 푸터(35) + 푸터 상단 여백(10) + border + 여유
 
-        const maxW = Math.min(window.innerWidth * 0.9, PopupManager.MAX_BOX_WIDTH) - CHROME_W;
+        const boxWidth = Number(box.dataset.boxWidth) || PopupManager.DEFAULT_BOX_WIDTH;
+        const maxW = Math.min(window.innerWidth * 0.9, boxWidth) - CHROME_W;
         const maxH = window.innerHeight * 0.9 - CHROME_H;
         const ratio = img.naturalWidth / img.naturalHeight;
 
-        let w = Math.min(img.naturalWidth, maxW);
+        // 고른 폭으로 고정하고 이미지는 폭 100% 로 채운다.
+        // 세로가 화면을 넘는 이미지만 비율을 유지한 채 폭을 줄인다 (닫기 버튼이 화면 안에 남도록)
+        let w = maxW;
         if (w / ratio > maxH) w = maxH * ratio;
         w = Math.max(w, 1);
 
@@ -352,7 +357,7 @@ class PopupManager {
             : imageInner;
 
         return `
-            <div class="popup-content" data-box-id="${this.escapeHtml(box.boxId)}">
+            <div class="popup-content" data-box-id="${this.escapeHtml(box.boxId)}" data-box-width="${box.width}" style="max-width: min(90vw, ${box.width}px)">
                 <button class="popup-close" data-action="close-box" aria-label="팝업 닫기">&times;</button>
                 ${image}
                 <div class="popup-footer">
@@ -467,8 +472,8 @@ class PopupManager {
     }
 }
 
-// 팝업 박스 최대 가로폭 (styles/popup.css .popup-content max-width 와 동일하게 유지)
-PopupManager.MAX_BOX_WIDTH = 700;
+// 팝업 폭을 고르지 않은 팝업의 기본 폭 (styles/popup.css .popup-content max-width 와 동일하게 유지)
+PopupManager.DEFAULT_BOX_WIDTH = 350;
 
 // 전역 인스턴스 생성
 window.PopupManager = PopupManager;
